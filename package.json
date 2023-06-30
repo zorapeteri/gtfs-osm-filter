@@ -1,0 +1,33 @@
+{
+  "name": "gtfs-osm-filter",
+  "version": "0.0.2",
+  "description": "Filters routes in a GTFS feed that overlap with an OpenStreetMap relation",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "npm run build && node build/index.js"
+  },
+  "keywords": [
+    "gtfs",
+    "osm",
+    "openstreetmap",
+    "filter",
+    "transit"
+  ],
+  "author": "Zora Péteri <zorapeteri@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/geojson": "^7946.0.10",
+    "geojson": "^0.5.0",
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "build/**/*"
+  ],
+  "homepage": "https://github.com/zorapeteri/gtfs-osm-filter",
+  "type": "module",
+  "dependencies": {
+    "osm-geojson": "^0.8.4",
+    "gtfs-polygon-filter": "0.0.2"
+  }
+}
