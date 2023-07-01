@@ -27,7 +27,7 @@
   "homepage": "https://github.com/zorapeteri/gtfs-osm-filter",
   "type": "module",
   "dependencies": {
-    "osm-geojson": "^0.8.4",
-    "gtfs-polygon-filter": "0.0.2"
+    "gtfs-polygon-filter": "^0.0.4",
+    "osm-geojson": "^0.8.4"
   }
 }
