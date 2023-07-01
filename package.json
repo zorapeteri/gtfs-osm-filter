@@ -1,6 +1,6 @@
 {
   "name": "gtfs-osm-filter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Filters routes in a GTFS feed that overlap with an OpenStreetMap relation",
   "main": "build/index.js",
   "scripts": {
